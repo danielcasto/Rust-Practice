@@ -1,3 +1,5 @@
+mod functions;
+
 fn main() {
-    println!("Hello, world!");
+    functions::print_triangle(10, 10);
 }
